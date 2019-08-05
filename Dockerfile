@@ -1,4 +1,3 @@
-    
 FROM jupyter/datascience-notebook
 
 COPY environment.yml ${HOME}/environment.yml
