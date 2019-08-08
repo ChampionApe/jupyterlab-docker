@@ -14,8 +14,6 @@ before_install:
 
 script:
   - docker build -t $DOCKER_IMAGE:$GIT_LATEST_COMMIT .
-  
-after_success:
   - if [[ "$TRAVIS_BRANCH" == "master" ]]; then
       echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin;
       docker push $DOCKER_IMAGE;
