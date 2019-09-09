@@ -2,4 +2,4 @@
 
 # jupyterlab-docker
 
-Building the docker used in FinancialFrictions2019. Installs various programs (Python, R, Julia) and adds relevant packages to an image on travis-ci.org.  
+Building the docker used in https://github.com/ChampionApe/FinancialFrictions2019. Installs various programs (Python, R, Julia) and adds relevant packages to an image on travis-ci.org.  
