@@ -6,6 +6,7 @@ dependencies:
   - nodejs
   - ipympl
   - rise
+  - geopandas
   - pip:
       - autopep8
       - black
